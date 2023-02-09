@@ -8,8 +8,6 @@ metadata:
 spec:
   containers:
   - image: redis
-    securityContext:
-      readOnlyRootFilesystem: true
     name: redis
     resources: {}
   dnsPolicy: ClusterFirst
