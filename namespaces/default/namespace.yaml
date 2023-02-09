@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: default
   annotations:
-    configsync.gke.io/cluster-name-selector: gke-postgres	
+    configsync.gke.io/cluster-name-selector: acm-demo	
