@@ -7,4 +7,6 @@ spec:
     kinds:
       - apiGroups: [""]
         kinds: ["Pod"]
+  parameters:
+    message: "Policy check failed `K8sPSPReadOnlyRootFilesystem`. Pod should have securityContext.readOnlyRootFilesystem: true"
 
