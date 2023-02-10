@@ -5,5 +5,6 @@ metadata:
   labels:
     # env: development
     owner: niran
+    admission.gatekeeper.sh/ignore: "true"
   annotations:
     configsync.gke.io/cluster-name-selector: acm-demo
