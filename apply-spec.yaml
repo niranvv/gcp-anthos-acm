@@ -2,7 +2,7 @@ applySpecVersion: 1
 spec:
   policyController:
     enabled: true
-    exemptableNamespaces: ["exempted-namespaces"]
+    exemptableNamespaces: ["exempted-namespace"]
   configSync:
     # Set to true to install and enable Config Sync
     enabled: true
