@@ -1,0 +1,18 @@
+applySpecVersion: 1
+spec:
+  policyController:
+    enabled: true
+    exemptableNamespaces: ["exempted-namespaces"]
+  configSync:
+    # Set to true to install and enable Config Sync
+    enabled: true
+    # If you don't have a Git repository or an OCI image, omit the
+    # following fields. You can configure them later.
+    sourceType: SOURCE_TYPE
+    sourceFormat: hierarchy
+    syncRepo: https://source.developers.google.com/p/knowledge-1659428042554/r/github_niranvv_gcp-anthos-acm
+    syncBranch: master
+    secretType: gcpserviceaccount
+    gcpServiceAccountEmail: acm-test@knowledge-1659428042554.iam.gserviceaccount.com
+    policyDir: .
+    #preventDrift: PREVENT_DRIFT
