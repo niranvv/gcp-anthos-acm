@@ -10,9 +10,9 @@ spec:
     # following fields. You can configure them later.
     sourceType: SOURCE_TYPE
     sourceFormat: hierarchy
-    syncRepo: https://source.developers.google.com/p/knowledge-1659428042554/r/github_niranvv_gcp-anthos-acm
+    syncRepo: https://source.developers.google.com/p/knowledge-1659428044086/r/github_niranvv_gcp-anthos-acm
     syncBranch: master
     secretType: gcpserviceaccount
-    gcpServiceAccountEmail: acm-test@knowledge-1659428042554.iam.gserviceaccount.com
+    gcpServiceAccountEmail: acm-test@knowledge-1659428044086.iam.gserviceaccount.com
     policyDir: .
     #preventDrift: PREVENT_DRIFT
